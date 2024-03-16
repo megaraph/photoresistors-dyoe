@@ -1,11 +1,12 @@
-/*******************************
+/************************************
 
-DYOE Project: Photoresistors
+* Title: Photoresistors Project Code 
+* Author: Murillo, R
+* Date: 2024
+* Code version: 2.0
+* Availability: https://github.com/megaraph/photoresitors-dyoe
 
-Group 6
-Murillo, Uy, VIllaluz, Wu
-
-*******************************/
+************************************/
 
 // PIN SOURCES
 const byte PR_SRC = A0;
@@ -15,7 +16,7 @@ const int LED_OUT = 13;
 int light;
 
 // Constraints
-const int lightMinValue = 500;
+const int lightMinValue = 70;
 
 void setup() {
 	pinMode(LED_OUT, OUTPUT);
